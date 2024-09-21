@@ -1,0 +1,98 @@
+body {
+  font-family: 'Times new Roman', 'Times', 'serif';
+  background-color: lightpink;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: deeppink;
+  color: #fbceb1;
+  padding: 20px, 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  background-color: #fbceb1;
+  border-radius: 15px;
+  box-shadow: 0 5px 5px #b59682;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  color: #866f5f;
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px #b59682;
+  margin-bottom: 15px;
+}
+
+.preco {
+  font-weight: bold;
+  color: deeppink;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="number"]: focus {
+  outline: none;
+  border: 2px solid deeppink;
+  box-shadow: 0 5px 5px pink;
+}
+
+#carrinho {
+  background-color: #fbceb1;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px #b59682;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#itens-carrinho {
+  list-style-type: none;
+  padding: 0;
+}
+
+#itens-carrinho li {
+  margin-bottom: 10px;
+}
+
+#total {
+  font-weight: bold;
+  color: deeppink;
+  text-align: center;
+}
+
+#finalizar-compra {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #b59682;
+  color: #fbceb1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#finalizar-compra:hover {
+  background-color: deeppink;
+}
